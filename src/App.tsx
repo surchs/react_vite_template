@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from './assets/vite.svg';
+import GradientButton from './components/Button';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,6 +27,7 @@ function App() {
       </div>
       <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
       <h1 className="bg-red-600 text-3xl font-bold underline">Hello world!</h1>
+      <GradientButton buttonText="Button" />
     </>
   );
 }
